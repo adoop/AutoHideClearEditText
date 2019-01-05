@@ -1,0 +1,3 @@
+# AutoHideClearEditText
+
+## this is an ios style editText  add cancel icon  and eye password close， using detail will coming soon...
