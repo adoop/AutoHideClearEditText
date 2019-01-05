@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="autoHideClearEditAttrs">
+        <attr name="closeTogDrawable" format="reference|color"/>
+        <attr name="passwordTogDrawableOpen" format="reference|color"/>
+        <attr name="passwordTogDrawableClose" format="reference|color"/>
+        <attr name="closeTogEnabled" format="boolean"/>
+        <attr name="passwordTogEnabled" format="boolean"/>
+    </declare-styleable>
+</resources>

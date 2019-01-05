@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AutoHideClearEditText</string>
+    <string name="login_text_hint_pwd">please input password</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="easy use"
+   />
+<com.womcat.autohideclearedit.AHideClearEditText
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@drawable/common_edit_bg_selector"
+    android:drawableLeft="@drawable/logon_icon_password_pressed"
+    android:drawablePadding="20dp"
+    android:gravity="center_vertical"
+    android:hint="@string/login_text_hint_pwd"
+    android:imeOptions="actionDone"
+    android:inputType="textPassword"
+    android:lines="1"
+    android:maxLength="18"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    android:singleLine="true"
+    android:textColor="#000"
+    android:textColorHint="#c1c1c1"
+
+    app:closeTogDrawable="@drawable/icon_clear"
+    app:closeTogEnabled="true"
+    app:passwordTogDrawableClose="@drawable/logon_icon_eyeoclose_pressed"
+    app:passwordTogDrawableOpen="@drawable/logon_icon_eyeopen_pressed"
+    app:passwordTogEnabled="true"
+
+    />
+</LinearLayout>
